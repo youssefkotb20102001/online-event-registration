@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Nsoo7yWebApp.Client.props" />
+</Project>

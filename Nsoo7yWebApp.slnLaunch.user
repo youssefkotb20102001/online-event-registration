@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Nsoo7yWebApp\\Nsoo7yWebApp\\Nsoo7yWebApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "Nsoo7yWebApp\\Nsoo7yWebApp.Client\\Nsoo7yWebApp.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

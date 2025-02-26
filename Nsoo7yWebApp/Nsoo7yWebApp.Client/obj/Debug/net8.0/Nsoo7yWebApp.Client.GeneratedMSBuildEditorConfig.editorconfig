@@ -1,0 +1,87 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Nsoo7yWebApp.Client
+build_property.RootNamespace = Nsoo7yWebApp.Client
+build_property.ProjectDir = C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yWebApp\Nsoo7yWebApp.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yWebApp\Nsoo7yWebApp.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Layout/HomepageLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhvbWVwYWdlTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Layout/QuizLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFF1aXpMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Administrator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXEFkbWluaXN0cmF0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Quiz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXFF1aXoucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/SignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXFNpZ25VcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Startup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXFN0YXJ0dXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Nsoo7y Pages/Thanks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnNvbzd5IFBhZ2VzXFRoYW5rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cq7qy1d3nx
+
+[C:/Users/Youssef Kotb/Desktop/All projects/test/Nsoo7yWebApp/Nsoo7yWebApp/Nsoo7yWebApp.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6fdgcb2o6z

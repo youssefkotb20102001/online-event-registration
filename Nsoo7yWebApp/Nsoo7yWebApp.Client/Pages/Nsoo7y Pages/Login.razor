@@ -1,0 +1,61 @@
+﻿@page "/"
+@using Business
+@using Nsoo7yDb
+@using Nsoo7yWebApp.Client.Classes
+@using Nsoo7yWebApp.Client.Layout
+@inject NavigationManager NavigationManager
+@inject IStudentRepository studentrepository
+@inject LocalStorage localstorage
+@layout LoginLayout
+
+
+<p class="pagetitle">Nsoohy Tournament Quiz</p>
+@if(notavailable==true)
+{
+    <p style="color: red"> this registration number is not available</p>
+}
+<EditForm FormName="Login" Model="student" OnValidSubmit="Save">
+    <div class="form-group">
+        <label for="Registrationnumber">Registration Number</label>
+        <InputNumber id="Registrationnumber" @bind-Value="student.RegistrationNumber" class="form-control"> </InputNumber>
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-secondary"> Login</button>
+    <br />
+    <br />
+   
+</EditForm>
+
+<button type="submit" class="btn btn-dark"> Login as an Administrator</button>
+<br />
+<br />
+<a href="/signup">Not having an account? Sign up</a>
+<style>
+    .pagetitle{
+        color: cornflowerblue;
+        font-size:40;
+        font-weight:bold;
+        
+    }
+</style>
+@code {
+    [SupplyParameterFromForm]
+    private Students student { get; set; } = new Students();
+    private bool notavailable = false;
+    private async Task Save()
+    {
+        //await studentrepository.AddStudentAsync(student);
+        var selectedStudent = await studentrepository.GetStudentByIdAsync(student.RegistrationNumber);
+        if(selectedStudent.RegistrationNumber!=0)
+        {
+           // localstorage.UserRegistrationNumber = student.RegistrationNumber;
+            NavigationManager.NavigateTo($"/home");
+        }
+        else
+        {
+            notavailable = true;
+        }
+
+    }
+}

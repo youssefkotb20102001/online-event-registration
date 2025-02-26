@@ -1,0 +1,20 @@
+﻿@page "/thanks"
+@using Nsoo7yWebApp.Client.Classes
+
+@inject QuizFormModel quizformModel
+<h3>Thanks</h3>
+
+@if(quizformModel.Answers.Count==0)
+{
+    <p>no data</p>
+}
+else
+{
+    @foreach (var answer in quizformModel.Answers)
+    {
+        <p>answer</p>
+    }
+}
+@code {
+
+}

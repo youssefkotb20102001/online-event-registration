@@ -1,0 +1,75 @@
+﻿@page "/quiz"
+@using Nsoo7yWebApp.Client.Classes
+@layout QuizLayout
+@using Business
+@using Nsoo7yDb
+@using Nsoo7yWebApp.Client.Layout
+
+@inject IScoresRepository ScoresRepository
+@inject IQuestionsDataSet QuestionsDataSet
+@inject LocalStorage localstorage
+<component type="typeof(YourComponent)" render-mode="WebAssemblyPrerendered" />
+
+<h3>Quiz</h3>
+@if(CanTakeTheQuiz==true)
+{
+
+
+   
+         @for(int i=0; i<questions.Count;i++)
+        {
+           
+            <p>@questions[i].Question</p>
+            <br />
+        
+                @foreach (var choice in questions[i].choices)
+                {
+                    <div>
+                       <input type="radio" name="@questions[i].Question"  @bind-value="quizmodel.Answers[i]"/>@choice
+                    </div>
+                }
+            
+
+            <hr />
+        } 
+        <a href="thanks">save</a>
+        @* <button @onclick="saveData">save</button> *@
+       
+
+}
+else
+{
+    <p>cannot</p>
+}
+
+@code {
+    [SupplyParameterFromForm]
+    QuizFormModel quizmodel { get; set; } = new QuizFormModel();
+    //ChosenAnswers quizmodel { get; set; } = new ChosenAnswers();
+    bool CanTakeTheQuiz = false;
+    List<QuizContent> questions;
+    QuizContent currentQuestion;
+
+    int index = 0;
+    protected override async Task OnInitializedAsync()
+    {
+        var registrationNumbertemp = localstorage.UserRegistrationNumber;
+        if (await ScoresRepository.GetScoresByIdAsync(registrationNumbertemp) is null)
+        {
+            CanTakeTheQuiz = true;
+
+        }
+        else
+        {
+            CanTakeTheQuiz = true;
+        }
+        questions = await QuestionsDataSet.GetQuestions();
+        currentQuestion = questions[0];
+
+    }
+
+    private void saveData()
+    {
+        Console.WriteLine(quizmodel.Answers[1]);
+    }
+}

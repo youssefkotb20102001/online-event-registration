@@ -1,0 +1,70 @@
+﻿@inherits LayoutComponentBase
+
+<div class="quiz-layout">
+    <header class="quiz-header">
+        <h1>Quiz Application</h1>
+    </header>
+
+    <main class="quiz-main">
+        <div class="content">
+            @Body
+        </div>
+    </main>
+
+    <footer class="quiz-footer">
+        <p>&copy; 2024 Quiz Application</p>
+    </footer>
+</div>
+
+<style>
+    .quiz-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .quiz-header {
+        background-color: #007BFF;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .quiz-footer {
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: auto; /* Pushes the footer to the bottom */
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+    .quiz-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1; /* Take remaining space */
+    }
+
+    .content {
+        max-width: 600px; /* Limit width of the content */
+        width: 100%; /* Make it responsive */
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        background-color: white; /* Card background */
+        display: flex;
+        flex-direction: column; /* Allow vertical stacking */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+    }
+</style>

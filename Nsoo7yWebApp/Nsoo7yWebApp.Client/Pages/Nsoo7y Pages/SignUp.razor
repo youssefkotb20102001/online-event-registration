@@ -1,0 +1,70 @@
+﻿@page "/signup"
+@using Business
+@using Nsoo7yDb
+@using Nsoo7yWebApp.Client.Layout
+@layout LoginLayout
+@inject IStudentRepository studentrepository
+@inject NavigationManager NavigationManager
+<p>SignUp</p>
+@if(notavailable== true)
+{
+    <p style="color: red">This student has an existing account</p>
+}
+<EditForm FormName="Login" Model="student" OnValidSubmit="Save">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="form-group">
+        <ValidationMessage For="()=> student.FirstName"></ValidationMessage>
+        <label for="FirstName">FirstName</label>
+        <InputText id="FirstName" @bind-Value="student.FirstName" class="form-control"> </InputText>
+    </div>
+    <br />
+    <div class="form-group">
+        <ValidationMessage For="()=> student.LastName"></ValidationMessage>
+
+        <label for="LastName">LastName</label>
+        <InputText id="LastName" @bind-Value="student.LastName" class="form-control"> </InputText>
+    </div>
+    <br />
+    <div class="form-group">
+        <ValidationMessage For="()=> student.RegistrationNumber"></ValidationMessage>
+
+        <label for="Registrationnumber">Registration Number</label>
+        <InputNumber id="Registrationnumber" @bind-Value="student.RegistrationNumber" class="form-control"> </InputNumber>
+    </div>
+    <br />
+    <div class="form-group">
+        <ValidationMessage For="()=> student.PhoneNumber"></ValidationMessage>
+
+        <label for="Phone">Phone Number</label>
+        <InputNumber id="Phone" @bind-Value="student.PhoneNumber" class="form-control"> </InputNumber>
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-secondary"> Login</button>
+    <br />
+    <br />
+
+</EditForm>
+@code {
+    [SupplyParameterFromForm]
+    private Students student { get; set; } = new Students();
+    private bool notavailable = false;
+    private async Task Save()
+    {
+        try
+        {
+            await studentrepository.AddStudentAsync(student);
+
+        }
+        catch
+        {
+            notavailable = true;
+        }
+        if(notavailable == false)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+
+
+    }
+}

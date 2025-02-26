@@ -1,0 +1,27 @@
+﻿@page "/home"
+@using Business
+@using Nsoo7yDb
+@using Nsoo7yWebApp.Client.Layout
+@layout HomepageLayout
+@inject NavigationManager NavigationManager
+@inject IStudentRepository studentrepository
+
+
+<PageTitle>Home</PageTitle>
+<div class="container">
+
+
+    <a class="btn btn-danger" href="quiz"> Enter Quiz</a>
+   @* <button @onclick="StartQuiz">StartQuiz</button> *@
+</div>
+
+
+
+
+@code {
+    public void StartQuiz()
+    {
+        NavigationManager.NavigateTo($"/quiz");
+    }
+}
+

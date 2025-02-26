@@ -1,0 +1,17 @@
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Nsoo7yDb.deps.json
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Nsoo7yDb.runtimeconfig.json
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Nsoo7yDb.dll
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Nsoo7yDb.pdb
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Business.dll
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\bin\Debug\net8.0\Business.pdb
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.csproj.AssemblyReference.cache
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.AssemblyInfoInputs.cache
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.AssemblyInfo.cs
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.csproj.CoreCompileInputs.cache
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.csproj.Up2Date
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.dll
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\refint\Nsoo7yDb.dll
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.pdb
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\Nsoo7yDb.genruntimeconfig.cache
+C:\Users\Youssef Kotb\Desktop\All projects\test\Nsoo7yWebApp\Nsoo7yDb\obj\Debug\net8.0\ref\Nsoo7yDb.dll
